@@ -32,7 +32,7 @@ Solves an issue of using a direct URL of the file in the upload file dialog on m
 
 1. From the cloned repository folder run the _install.sh_: `./install.sh`
 
-    It will modify the [template of a _.plist_ file](./source/input.plist) and copy it to "~/Library/LaunchAgents/" folder. It will also copy the [actual script](source/url-file-watcher.sh) to "~/.config/scripts/" folder.
+    It will modify the [template of a _.plist_ file](./source/input.plist) and copy it to "\~/Library/LaunchAgents/" folder. It will also copy the [actual script](source/url-file-watcher.sh) to "~/.config/scripts/" folder.
 
 ## Usage and settings
 
@@ -47,7 +47,7 @@ Solves an issue of using a direct URL of the file in the upload file dialog on m
 
 ### Settings (optional)
 
-- You can adjust the number of seconds the downloaded file is kept by editing the line `sleep 15` in the `url-file-watcher.sh` file (by default placed to "~/.config/scripts/" folder)
+- You can adjust the number of seconds the downloaded file is kept by editing the line `sleep 15` in the "url-file-watcher.sh" file (by default placed to "~/.config/scripts/" folder)
 
 ## Credits
 
