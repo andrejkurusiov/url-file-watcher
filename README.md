@@ -1,5 +1,19 @@
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- could be some extra
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+-->
 ![Language: bash][language-shield]
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![pre-commit][pre-commit-shield]][pre-commit-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -61,8 +75,11 @@ Solves an issue of using a direct URL of the file in the upload file dialog on m
 Distributed under the [MIT License](./LICENSE).
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[language-shield]: https://img.shields.io/badge/-Made%20with%20Bash-green?logo=gnu-bash&logoColor=black
-[license-shield]: https://img.shields.io/github/license/andrejkurusiov/project-template
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[language-shield]: https://img.shields.io/badge/-Made%20with%20Bash-green?logo=gnu-bash&logoColor=black&style=flat
+[pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&style=flat
+[pre-commit-url]: https://github.com/pre-commit/pre-commit
+[license-shield]: https://img.shields.io/github/license/andrejkurusiov/url-file-watcher?style=flat
 [license-url]: ./LICENSE
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/in/andrejkurusiov/
