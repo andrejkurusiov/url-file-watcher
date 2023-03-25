@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+        <string>url-file-watcher</string>
+    <key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/bin/fdautil</string>
+            <string>exec</string>
+            <string>~/.config/scripts/url-file-watcher.sh</string>
+        </array>
+    <key>WatchPaths</key>
+        <array>
+            <string>~/Desktop/url-file-watcher</string>
+        </array>
+    <!-- Logging to "~/tmp/" folder -->
+    <key>StandardOutPath</key>
+        <string>~/tmp/url-file-watcher.stdout.txt</string>
+    <key>StandardErrorPath</key>
+        <string>~/tmp/url-file-watcher.stderr.txt</string>
+</dict>
+</plist>
